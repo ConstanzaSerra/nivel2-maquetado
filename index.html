@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />    
+
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__logo">
+        <img src="./logo-marce.png" alt="Logo de Marce" class="logo" />
+      </div>
+
+      <div class="header__burger">
+        <img src="./burger.png" alt="Hamburguesa" class="header__burger-image" />
+      </div>
+      <nav class="header__link">
+        <a href="#about-me" class="header__menu-link">quien soy</a>
+        <a href="#services" class="header__menu-link">servicios</a>
+        <a href="#formulario" class="header__menu-link">escribime</a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <h1 class="bienvenida">Bienvenidxs a mi site</h1>
+      <img src="./image-marce.png" alt="Foto de Marce" class="foto-portada" />
+    </main>
+    <section class="about-me" id="about-me">
+        <div class="about-me__title-and-text">
+            <h2 class="about-me__title">Soy Marce</h2>
+      <p class="about-me__text">
+        Algo interesante sobre mí Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+        incidunt, reiciendis culpa praesentium qui nihil dolor illo, architecto
+        voluptate perspiciatis dicta inventore nostrum tenetur sunt voluptas
+        sit. Iste, consequatur sed.
+      </p>
+        </div>      
+      <img src="./check.png" alt="Check Amarillo" class="about-me__check">
+    </section>
+    <section class="services" id="services">
+      <h2 class="title">
+        Mis servicios
+      </h2>
+      <div class="services__cosas">
+        <div class="services__cosas-que-hago">
+            <img src="./desktop.png" alt="Desktop" class="services__cosas-que-hago__img-desktop">
+            <h4 class="services__cosas-que-hago__title">Hago cosas</h4>
+            <p class="services__cosas-que-hago__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed architecto iste enim. Excepturi repellat eveniet, corporis atque eaque dolorem, iusto consequuntur ad recusandae distinctio tenetur quia. Maiores numquam a veritatis.</p>
+        </div>        
+        <div class="services__cosas-que-hago">
+            <img src="./desktop.png" alt="Desktop" class="services__cosas-que-hago__img-desktop">
+            <h4 class="services__cosas-que-hago__title">Y más cosas</h4>
+            <p class="services__cosas-que-hago__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed architecto iste enim. Excepturi repellat eveniet, corporis atque eaque dolorem, iusto consequuntur ad recusandae distinctio tenetur quia. Maiores numquam a veritatis.</p>
+        </div>
+        <div class="services__cosas-que-hago">
+            <img src="./desktop.png" alt="Desktop" class="services__cosas-que-hago__img-desktop">
+            <h4 class="services__cosas-que-hago__title">Y también otras cosas</h4>
+            <p class="services__cosas-que-hago__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed architecto iste enim. Excepturi repellat eveniet, corporis atque eaque dolorem, iusto consequuntur ad recusandae distinctio tenetur quia. Maiores numquam a veritatis.</p>
+        </div>
+      </div>
+    </section>
+    <section class="formulario" id="formulario">
+        
+            <h4 class="formulario__title">Escribime</h4>
+            <div class="formulario__form">
+                <div class="formulario__form__fieldset">
+                    <label for="nombre" class="formulario__form__fieldset-label">NOMBRE</label>
+                    <input type="text" class="formulario__form__fieldset-input" id="nombre"/>
+                </div>
+                <div class="formulario__form__fieldset">
+                    <label for="email" class="formulario__form__fieldset-label">EMAIL</label>
+                    <input type="email" class="formulario__form__fieldset-input" id="email"/>
+                </div>
+                <div class="formulario__form__fieldset">
+                    <label for="mensaje" class="formulario__form__fieldset-label">MENSAJE</label>
+                    <textarea type="text" class="formulario__form__fieldset-input text-area" id="mensaje"></textarea>
+                </div>
+                <div class="formulario__button-section">
+                    <button class="button-section">Enviar</button>
+                </div>
+            </div>             
+
+    </section>
+    <footer class="footer">
+      <div class="footer__logo-y-registro">
+          <img src="./logo-marce.png" alt="Logo de Marce" class="logo" />
+          <p class="footer__logo-y-registro__mr">
+            © 2021 Marce
+          </p>
+      </div>
+      
+      <nav class="footer__social-link">
+        <div class="footer__social-link__una">
+            <a href="" target="_blank" class = "footer__social-link__img">
+                <img src="./instagram.png" alt="Instagram"/>
+            </a>
+            <a href="" class="footer__social-link-text">Instagram</a>
+        </div>
+        <div class="footer__social-link__una">
+            <a href="" target="_blank" class = "footer__social-link__img">
+                <img src="./linkedin.png" alt="Linkedin" />
+            </a>
+            <a href="" class="footer__social-link-text">Linkedin</a>
+        </div>
+        <div class="footer__social-link__una" >
+            <a href="" target="_blank" class = "footer__social-link__img">
+                <img src="./github.png" alt="Github"/>
+            </a>
+            <a href="" class="footer__social-link-text">Github</a>
+        </div>
+        
+      </nav>
+    </footer>
+  </body>
+</html>
